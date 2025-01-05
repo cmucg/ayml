@@ -1,0 +1,20 @@
+{
+  "name": "cg-ext005-name",
+  "displayName": "cgExt005 displayName",
+  "description": "ChenGuang simple VS Code extension using JavaScript",
+  "version": "0.0.2",
+  "publisher": "ChenGuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cgExt005run",
+        "title": "chenExt005Title"
+      }
+    ]
+  }
+}
